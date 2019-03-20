@@ -1,6 +1,6 @@
-//If you put all of the class methods inside the class definition (after the constructor etc etc) everytime the class is instantiated, it's creating
-//It's own private versions of those functions. This turns into a memory nightmare if there are a bunch of these objects being created.
-//Pulling them out into the prototype means they're only instantiated once in memory.
+//If you put all of the class methods inside the class definition (after the constructor etc etc) every time the class is instantiated, it's creating
+//Its own private versions of those functions. This turns into a memory nightmare if there are a bunch of these objects being created.
+//Pulling them out into the prototype means they're only instantiated once.
 function LinkedList() {
   this.head = null;
 }
